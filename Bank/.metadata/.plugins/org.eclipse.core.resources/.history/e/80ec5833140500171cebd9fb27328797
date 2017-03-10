@@ -1,0 +1,20 @@
+package math.uni.lodz.bank;
+
+public class Account 
+{
+	private String name;
+	private String number;
+	
+	public Account() 
+	{
+		
+	}
+	
+	public Account(String nameIn, String numberIn) 
+	{
+		name = nameIn;
+		number = numberIn;
+		
+	}
+	
+}

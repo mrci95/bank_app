@@ -1,0 +1,21 @@
+package math.uni.lodz.bank;
+
+public class Deposit implements Transaction
+{
+	@Override
+	public void deleteTransaction() 
+	{
+		System.out.println("Deposit.deleteTransaction for Name: " + accountTo.getName() + ", Number: " + accountTo.getNumber());
+	}
+	@Override
+	public void doTransaction() 
+	{
+		System.out.println("Deposit.doTransaction for Name: " + accountTo.getName() + ", Number: " + accountTo.getNumber());
+	}
+	@Override
+	public void stopTransaction() 
+	{
+		System.out.println("Deposit.stopTransaction for Name: " + accountTo.getName() + ", Number: " + accountTo.getNumber());
+	}
+
+}

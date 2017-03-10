@@ -1,0 +1,21 @@
+package math.uni.lodz.bank;
+
+public class Client 
+{
+	private String firstName;
+	private String secondName;
+	private String city;
+	private String street;
+	private String zip;
+	private String state;
+	private int number;
+	
+	public Bank(String firstNameIn, String cityIn, String stateIn, String zipIn, String streetIn, int numberIn) {
+		firstName = firstNameIn;
+		city = cityIn;
+		state = stateIn;
+		zip = zipIn;
+		street = streetIn;
+		number = numberIn;
+	}
+}

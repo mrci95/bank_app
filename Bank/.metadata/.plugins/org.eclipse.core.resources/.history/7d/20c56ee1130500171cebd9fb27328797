@@ -1,0 +1,21 @@
+package math.uni.lodz.bank;
+
+public class Transfer implements Transaction
+{
+	@Override
+	public void deleteTransaction() 
+	{
+		
+	}
+	@Override
+	public void doTransaction() 
+	{
+		
+	}
+	@Override
+	public void stopTransaction() 
+	{
+		
+	}
+
+}

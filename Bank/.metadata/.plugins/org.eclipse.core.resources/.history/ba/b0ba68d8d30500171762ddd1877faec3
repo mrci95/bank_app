@@ -1,0 +1,7 @@
+package math.uni.lodz.bank;
+
+public class Bank {
+	
+	private String Name;
+	
+}

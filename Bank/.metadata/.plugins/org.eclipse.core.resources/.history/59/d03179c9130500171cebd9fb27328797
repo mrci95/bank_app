@@ -1,0 +1,23 @@
+package math.uni.lodz.bank;
+
+public class Check implements Transaction
+{
+	
+	@Override
+	public void deleteTransaction() {
+		// TODO Auto-generated method stub
+		System.out.println("Check.deleteTransaction");
+		
+	}
+	@Override
+	public void doTransaction() {
+		// TODO Auto-generated method stub
+		System.out.println("Check.doTransaction");
+	}
+	@Override
+	public void stopTransaction() {
+		// TODO Auto-generated method stub
+		System.out.println("Check.stopTransaction");
+	}
+
+}
